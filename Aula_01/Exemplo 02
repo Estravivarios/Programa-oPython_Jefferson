@@ -1,0 +1,24 @@
+import os
+os.system('CLS')
+
+"""
+Avariavel no python se adapatam ao tipo de dado inserido
+Tipos:
+Strings - str
+Int - inteiros 1,2,3...
+Float - numeros reais 1.3,2.9,8.5
+Booleano - bool "True" ou "False"
+"""
+
+numero = 25
+nome = "Senai"
+valor = 3.8
+prg = True
+
+print(type(numero))
+print(type(nome))
+print(type(valor))
+print(type(prg))
+
+aleatoria = input("digite um valor :")
+print(type(aleatoria))
